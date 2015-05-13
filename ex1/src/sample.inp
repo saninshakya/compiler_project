@@ -1,0 +1,14 @@
+int k;
+    k = test();
+print k;
+
+int test()
+{
+    int aaa = 41 + 13 * 59;
+    if(aaa < 100)
+        aaa = 1;
+    else
+        aaa = 100;
+    endif
+    return aaa;
+}
